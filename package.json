@@ -1,0 +1,32 @@
+{
+  "name": "ukraine-independence-day-theme",
+  "displayName": "Ukraine Independence Day Theme",
+  "description": "Immerse yourself in the vibrant colors of the Ukrainian flag—blue and yellow—as you code and create.",
+  "publisher": "Zazmic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zazmicinc/vscode-theme-ua.git"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#284469",
+    "theme": "dark"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ukraine Independence Day Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ukraine Independence Day Theme-color-theme.json"
+      }
+    ]
+  }
+}
